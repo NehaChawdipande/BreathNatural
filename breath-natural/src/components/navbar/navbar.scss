@@ -1,0 +1,38 @@
+.Navbar{
+    width: 100%;
+    // position: absolute;
+    // top: 0;
+    overflow: hidden;
+    
+    header{
+        width: 90%;
+        justify-self: center;
+        padding: 1.5rem 0 0 .5rem;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 20% 60% 20%;
+        .logo{
+         justify-self: center;
+        }
+        .pageGroup{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:10%;
+
+            li{
+                list-style: none;
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+        .iconGroup{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            gap:20%
+        }
+    }
+    
+}

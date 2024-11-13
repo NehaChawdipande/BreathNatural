@@ -1,0 +1,58 @@
+.simple{
+border: 1px solid #9c9c9c;
+background-color: rgba(255, 255, 255, 0.01);
+backdrop-filter: blur(0.45rem);
+min-height: 13vh;
+width: 26vw;
+padding: .5rem;
+border-radius: 3rem;
+padding: 6px 12px;
+height: 80%;
+    img{
+    width: 100%;
+    height: auto;
+}
+}
+.curved{
+@extend .simple;
+border: solid 1px white;
+
+}
+.content{
+    width: 85%;
+    position: relative;
+    top:-25%;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    color: #d5d5d5;
+     p {
+        margin: .15rem 0;
+        color: #adadad;
+     }
+     h4{
+        font-size: 1.25rem;
+        text-align: left;
+        font-weight: 400;
+        margin: .25rem 0 .75rem 0;
+     }
+     .borderButton{
+        width: 6rem;
+        height: 2rem;
+        background-color: transparent;
+        border: solid 1px gray;
+        border-radius: .5rem;
+        color:  #edebeb;
+     }
+     .text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .icon{
+            height: 1rem;
+            width: auto;
+        }
+       
+    }  
+}

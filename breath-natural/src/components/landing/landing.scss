@@ -1,0 +1,47 @@
+
+.Landing{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 58% 38%;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 90%;
+    gap: 1rem;
+    .heading{
+        font-size: 3rem;
+        color: #d5d5d5;
+        font-weight: 450;
+        padding-bottom: .25rem;
+        margin-bottom: 0;
+        margin-top:0;
+        width: 100%;
+        text-align: left;
+        justify-self: center;
+        align-self: start;
+    }
+    p{
+        font-size:0.8rem;
+        line-height: 1rem;
+        text-align: left;
+        color: #d5d5d5;
+    }
+    .borderButton{
+        width: 6rem;
+        height: 2rem;
+        background-color: transparent;
+        border: solid 1px gray;
+        border-radius: .5rem;
+        color:  #edebeb;
+    }
+    .block{
+        width: 100%;
+        justify-self: center;
+        display: grid;
+        justify-content: left;
+    }
+}
+
+.heading2{
+    color: #d5d5d5;
+    font-size: 1.5rem;
+}
