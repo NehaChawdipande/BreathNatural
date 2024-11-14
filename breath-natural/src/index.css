@@ -1,9 +1,14 @@
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5{
+  font-family: "Hind Siliguri", sans-serif;
+  letter-spacing: 0.70px;
+  font-weight: 450;
 }
 
 code {

@@ -2,6 +2,9 @@ import React from 'react';
 import './landing.scss';
 import Simple from '../cards/simple/simple';
 import Curved from '../cards/curved/curved';
+import Horizontal from '../cards/curved/horizontal/horizontal';
+import plant2 from '../../assets/plant2.png';
+import plant3 from '../../assets/plant3.png';
 
 const Landing = () => {
     return (
@@ -16,14 +19,21 @@ const Landing = () => {
                     <button className='borderButton'>Explore</button>
                 </div> 
                 <br/>
-            <Curved type="simple"></Curved>
+                <br/>
+            <Curved></Curved>
 
             </div>
-            <Simple type="simple"></Simple>
+            <Simple></Simple>
         </div>
         <br/>
-        <h4 className='heading2'>Our Trendy Plants</h4>
-        
+        <h4 className='heading2'>&nbsp;&nbsp;Our Trendy Plants&nbsp;&nbsp;</h4>
+        <Horizontal imgPosition={'left'} plantsrc={plant2}/>
+        <br/>
+        <br/>
+        <Horizontal imgPosition={'right'} plantsrc={plant3}/>
+        <br/>
+        <br/>
+        <br/>
         </>
     );
 };
